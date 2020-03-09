@@ -49,3 +49,7 @@ pypiwin32 ; sys_platform == 'win32'
 suds-py3==1.4.0.0
 cryptography
 pgcli
+paramiko
+acme_tiny
+IPy
+sh
