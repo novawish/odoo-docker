@@ -2,7 +2,7 @@ FROM python:3.8.2
 
 WORKDIR /opt/odoo
 
-RUN apt-get update && apt-get install -y curl wget git build-essential python-dev python3-dev libldap2-dev libsasl2-dev libssl-dev nano libxml2-dev libxslt1-dev zsh postgresql
+RUN apt-get update && apt-get install -y curl wget git build-essential python-dev python3-dev libldap2-dev libsasl2-dev libssl-dev nano libxml2-dev libxslt1-dev zsh postgresql virtualenv gitpython
 
 # Install oh-my-zsh
 ENV ZSH_THEME risto
